@@ -49,6 +49,12 @@ import (
 	"path/filepath"
 	"sync"
 	"unsafe"
+
+	_ "github.com/SibiryakovVictor/go-fitz/include/mupdf"
+	_ "github.com/SibiryakovVictor/go-fitz/include/mupdf/fitz"
+	_ "github.com/SibiryakovVictor/go-fitz/include/mupdf/helpers"
+	_ "github.com/SibiryakovVictor/go-fitz/include/mupdf/pdf"
+	_ "github.com/SibiryakovVictor/go-fitz/libs"
 )
 
 // Errors.
